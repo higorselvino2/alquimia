@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-alquimia-green: #FF7A00;
+  --color-alquimia-dark: #1f0a0a;
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee-fast {
+  width: max-content;
+  animation: marquee 10s linear infinite;
+}

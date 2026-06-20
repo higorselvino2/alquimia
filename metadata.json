@@ -1,0 +1,6 @@
+{
+  "name": "Alquimia Produtora - Guia Musical",
+  "description": "Transforme sua composição em uma guia musical profissional. Gravamos sua música com cantores e músicos reais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
