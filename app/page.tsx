@@ -14,13 +14,21 @@ export default function Home() {
       <section className="relative min-h-[90vh] pb-16 w-full flex flex-col justify-center">
         {/* Full-width Image Background */}
         <div className="absolute inset-0 z-0">
+          {/* Mobile Background */}
           <Image 
-            src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070&auto=format&fit=crop" 
+            src="/mobile.png" 
             alt="Produtor no estúdio de gravação"
             fill
-            className="object-cover object-right"
+            className="object-cover object-center md:hidden"
             priority
-            referrerPolicy="no-referrer"
+          />
+          {/* Desktop Background */}
+          <Image 
+            src="/desktop.png" 
+            alt="Produtor no estúdio de gravação"
+            fill
+            className="object-cover object-right hidden md:block"
+            priority
           />
           {/* Gradient Overlay to make left side dark and readable */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#020A05] via-[#020A05]/90 to-transparent z-10"></div>
@@ -30,6 +38,17 @@ export default function Home() {
 
         <div className="relative z-30 px-6 lg:px-10 max-w-[1200px] w-full mx-auto flex flex-col items-start pt-24 md:pt-32">
           
+          <div className="mb-10 lg:mb-16">
+            <Image 
+              src="/logo.png" 
+              alt="Alquimia Produtora" 
+              width={180} 
+              height={80} 
+              className="h-12 w-auto object-contain"
+              priority
+            />
+          </div>
+
           <div className="max-w-2xl text-left">
             <h1 className="font-[family-name:var(--font-space)] text-5xl md:text-6xl lg:text-7xl font-bold uppercase mb-6 tracking-tight text-white leading-[1.05]">
               Sua música <br />

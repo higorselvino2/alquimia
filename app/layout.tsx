@@ -16,6 +16,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Alquimia Produtora | Transforme sua ideia em música',
   description: 'Sua composição gravada com cantores e músicos reais. Guia musical profissional com mixagem e arranjo original.',
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
