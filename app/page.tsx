@@ -32,14 +32,14 @@ export default function Home() {
           
           <div className="max-w-2xl text-left">
             <h1 className="font-[family-name:var(--font-space)] text-5xl md:text-6xl lg:text-7xl font-bold uppercase mb-6 tracking-tight text-white leading-[1.05]">
-              Transforme sua <br />
-              composição <br />
-              <span className="text-[#FF7A00]">em uma guia musical <br />
-              profissional.</span>
+              Sua música <br />
+              fora do celular. <br />
+              <span className="text-[#FF7A00]">Guia pronta e <br />
+              profissional em 48h.</span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/80 mb-12 leading-relaxed max-w-xl">
-              Gravamos sua música com cantores e músicos reais para você apresentar sua composição com qualidade profissional para artistas e produtores
+              Você manda um áudio simples; nós entregamos um arranjo de estúdio e cantores reais, pronto para você apresentar aos maiores artistas do mercado.
             </p>
           </div>
 
@@ -76,10 +76,10 @@ export default function Home() {
 
             <div className="flex flex-col items-center gap-3">
               <WhatsAppButton className="w-full sm:w-auto font-black text-lg py-5 px-12 rounded-lg shadow-[0_0_30px_rgba(255,122,0,0.2)]">
-                CHAMAR NO WHATSAPP
+                ORÇAR MINHA GUIA (PRAZO EXATO)
               </WhatsAppButton>
               <div className="text-xs text-white/50">
-                Sem compromisso. A gente te explica rapidinho.
+                Sem compromisso. Saiba na hora o prazo e valor exato pro seu projeto.
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
       <div className="h-12 bg-[#FF7A00] flex items-center overflow-hidden border-y border-black relative z-10 w-[105%] -ml-4 -rotate-1 mb-16 shadow-[0_0_20px_rgba(255,122,0,0.1)]">
         <div className="flex animate-marquee-fast whitespace-nowrap text-black font-black uppercase text-sm tracking-tighter">
           {[...Array(12)].map((_, i) => (
-            <span key={i} className="px-4">Transforme suas ideias em música •</span>
+            <span key={i} className="px-4">+500 COMPOSITORES JÁ SAÍRAM DO CELULAR •</span>
           ))}
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function Home() {
               Ouça a <span className="text-[#FF7A00]">transformação</span>
             </h2>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
-              Compare uma ideia gravada de forma simples no celular com a guia profissional que entregamos. É a mesma música — com outra qualidade.
+              A mesma letra. A mesma melodia. ZERO alteração na sua ideia. 100% qualidade de estúdio profissional.
             </p>
           </div>
 
@@ -137,7 +137,7 @@ export default function Home() {
               
               <div className="relative z-10">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-black/50 border border-white/10 rounded-full text-xs font-bold uppercase tracking-widest text-white mb-8 shadow-sm">
-                  <Music className="w-3 h-3 text-[#FF7A00]" /> Sertanejo Universitário
+                  <Music className="w-3 h-3 text-[#FF7A00]" /> Sertanejo
                 </div>
 
                 <div className="space-y-6 relative">
@@ -152,10 +152,10 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col flex-1 w-full text-center sm:text-left">
                       <div className="mb-2">
-                        <span className="text-[10px] text-white/50 font-bold uppercase tracking-widest block mb-0.5">Como o compositor mandou</span>
+                        <span className="text-[10px] text-white/50 font-bold uppercase tracking-widest block mb-0.5">Áudio do celular</span>
                         <span className="text-sm font-medium text-white/80">Gravação Simples (Celular)</span>
                       </div>
-                      <AudioPlayer src="ANTES_1.mp3" label="Ouça o original" variant="before" />
+                      <AudioPlayer src="ANTES_1.mp3" label="Sua ideia no celular" variant="before" />
                     </div>
                   </div>
 
@@ -167,10 +167,10 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col flex-1 w-full text-center sm:text-left">
                       <div className="mb-2">
-                        <span className="text-[10px] text-[#FF7A00] font-bold uppercase tracking-widest block mb-0.5">O resultado</span>
+                        <span className="text-[10px] text-[#FF7A00] font-bold uppercase tracking-widest block mb-0.5">Qualidade Estúdio</span>
                         <span className="text-base font-bold text-white shadow-sm">Guia Profissional Alquimia</span>
                       </div>
-                      <AudioPlayer src="DEPOIS_1.mp3" label="Ouça a transformação" variant="after" />
+                      <AudioPlayer src="DEPOIS_1.mp3" label="Pronta para o artista" variant="after" />
                     </div>
                   </div>
                 </div>
@@ -198,10 +198,10 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col flex-1 w-full text-center sm:text-left">
                       <div className="mb-2">
-                        <span className="text-[10px] text-white/50 font-bold uppercase tracking-widest block mb-0.5">Como o compositor mandou</span>
+                        <span className="text-[10px] text-white/50 font-bold uppercase tracking-widest block mb-0.5">Áudio do celular</span>
                         <span className="text-sm font-medium text-white/80">Gravação Simples (Celular)</span>
                       </div>
-                      <AudioPlayer src="ANTES_3.mp3" label="Ouça o original" variant="before" />
+                      <AudioPlayer src="ANTES_3.mp3" label="Sua ideia no celular" variant="before" />
                     </div>
                   </div>
 
@@ -213,10 +213,10 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col flex-1 w-full text-center sm:text-left">
                       <div className="mb-2">
-                        <span className="text-[10px] text-[#FF7A00] font-bold uppercase tracking-widest block mb-0.5">O resultado</span>
+                        <span className="text-[10px] text-[#FF7A00] font-bold uppercase tracking-widest block mb-0.5">Qualidade Estúdio</span>
                         <span className="text-base font-bold text-white shadow-sm">Guia Profissional Alquimia</span>
                       </div>
-                      <AudioPlayer src="DEPOIS_3.mp3" label="Ouça a transformação" variant="after" />
+                      <AudioPlayer src="DEPOIS_3.mp3" label="Pronta para o artista" variant="after" />
                     </div>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ export default function Home() {
         <div className="max-w-[1000px] mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-black uppercase text-white font-[family-name:var(--font-space)] tracking-tight mb-4">
-              Como funciona, do <span className="text-[#FF7A00]">jeito mais simples</span> possível
+              O Processo em <span className="text-[#FF7A00]">4 Passos Simples</span>
             </h2>
           </div>
 
@@ -245,22 +245,22 @@ export default function Home() {
             {[
               {
                 step: "01",
-                text: "Você manda sua letra e a melodia gravada no celular, do seu jeito.",
+                text: "Grave agora mesmo no WhatsApp: basta a sua voz cantando a ideia.",
                 icon: Mic2
               },
               {
                 step: "02",
-                text: "Nosso produtor musical conversa com você sobre o tom, o estilo e os detalhes da música.",
+                text: "Deciframos o ritmo, o tom e a exata emoção da sua ideia direto pelo WhatsApp.",
                 icon: MessageCircle
               },
               {
                 step: "03",
-                text: "Usamos nossa voz no nosso estúdio para trazer a sua música de forma profissional.",
+                text: "Instrumentos e vozes gravados no estúdio para criar o seu arranjo profissional do zero.",
                 icon: Headphones
               },
               {
                 step: "04",
-                text: "Em até 2 dias úteis, você recebe sua guia musical pronta para mostrar a quem quiser.",
+                text: "Em até 2 dias úteis, sua guia pronta, mixada e masterizada para impressionar o mercado.",
                 icon: CheckCircle2
               }
             ].map((s) => (
@@ -291,10 +291,10 @@ export default function Home() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              "Compositores de qualquer estilo (Sertanejo, Pop, Gospel, etc.) que não sabem gravar",
-              "Ministérios de louvor que querem arranjos profissionais para as canções da igreja",
-              "Pessoas que querem apresentar uma música com peso para artistas e produtores",
-              "Quem quer apenas eternizar a composição com qualidade profissional"
+              "Para você que tem uma ótima música na cabeça, mas nunca conseguiu gravar direito.",
+              "Para quem não toca nenhum instrumento, mas precisa de um arranjo e mixagem impecáveis.",
+              "Compositores com letras de ouro acumulando poeira no bloco de notas do celular.",
+              "Para o compositor que quer provar o real valor da sua obra para grandes artistas."
             ].map((item, i) => (
               <div key={i} className="flex flex-row items-center gap-4 bg-black/40 p-5 rounded-xl border border-white/5">
                 <ChevronRight className="flex-shrink-0 w-6 h-6 text-[#FF7A00]" />
@@ -323,7 +323,7 @@ export default function Home() {
             <div className="bg-white/5 border border-white/10 p-8 rounded-3xl relative backdrop-blur-md">
               <Star className="w-8 h-8 text-[#FFD700] mb-6 fill-[#FFD700]" />
               <p className="text-white/80 text-lg leading-relaxed mb-6 font-serif italic">
-                &quot;Mandamos os louvores que criamos na nossa igreja, gravados num celular simples. Eles transformaram tudo numa gravação belíssima, mantendo exatamente a unção, a letra e a nossa melodia. Deus abençoe!&quot;
+                &quot;Gravado num celular simples na nossa igreja. Vocês deram vida ao louvor com uma qualidade absurda, de estúdio, sem mudar em nada a nossa essência.&quot;
               </p>
               <div>
                 <p className="font-bold text-white font-[family-name:var(--font-space)] uppercase tracking-widest text-sm">Pr. Samuel M.</p>
@@ -335,7 +335,7 @@ export default function Home() {
             <div className="bg-white/5 border border-white/10 p-8 rounded-3xl relative backdrop-blur-md">
               <Star className="w-8 h-8 text-[#FFD700] mb-6 fill-[#FFD700]" />
               <p className="text-white/80 text-lg leading-relaxed mb-6 font-serif italic">
-                &quot;O pessoal da Alquimia teve um respeito enorme com a minha melodia. Mandei um áudio super caseiro e eles transformaram numa produção de rádio!&quot;
+                &quot;De um áudio caseiro e ruim no carro pra uma guia de estúdio perfeita. Apresentei pra um produtor e a qualidade da master me fez fechar negócio na mesma semana!&quot;
               </p>
               <div>
                 <p className="font-bold text-white font-[family-name:var(--font-space)] uppercase tracking-widest text-sm">Marcelo C.</p>
@@ -358,23 +358,23 @@ export default function Home() {
           <FAQAccordion items={[
             {
               question: "Preciso saber tocar algum instrumento ou ler música?",
-              answer: "Não, basta enviar sua ideia da forma que conseguir, mesmo cantando a capella de forma simples no gravador do celular."
+              answer: "Não. Basta gravar a sua voz no celular e nos mandar no WhatsApp. Nosso time cria todo o arranjo do absoluto zero."
             },
             {
-              question: "Em quanto tempo fica pronto?",
-              answer: "Sua guia é entregue pronta em até 2 dias úteis."
+              question: "Minha composição está protegida contra plágio/roubo?",
+              answer: "Totalmente segura. O direito autoral é 100% seu e o projeto é confidencial. Somos a sua produtora executiva."
             },
             {
-              question: "Quanto custa o serviço?",
-              answer: "A guia musical profissional completa sai por apenas R$ 97."
+              question: "E se o resultado não ficar como eu queria?",
+              answer: "Nós alinhamos referências precisas pelo WhatsApp antes do play. Nosso foco é bater a qualidade que você idealizou."
             },
             {
-              question: "Como funciona o pagamento?",
-              answer: "O pagamento é combinado diretamente com o nosso produtor pelo WhatsApp."
+              question: "Qual o prazo real de entrega da guia?",
+              answer: "No máximo 2 dias úteis após o envio da sua ideia. Rapidez agressiva sem perder a excelência profissional."
             },
             {
-              question: "Minha composição fica protegida?",
-              answer: "Sim. Conversas estritamente confidenciais e damos orientação sobre registro."
+              question: "Quanto custa e como pago?",
+              answer: "Preço único de R$ 97. O acerto e as dúvidas são resolvidos direto no WhatsApp com nosso produtor, transparente e na hora."
             }
           ]} />
         </div>
@@ -386,8 +386,8 @@ export default function Home() {
         
         <div className="max-w-3xl mx-auto relative z-10">
           <h2 className="text-[54px] md:text-7xl font-black text-white font-[family-name:var(--font-space)] uppercase mb-6 leading-[1.1] tracking-tight">
-            Não deixe sua <br />
-            <span className="text-[#FF7A00]">ideia parada.</span>
+            Sua música não <br />
+            <span className="text-[#FF7A00]">merece a gaveta.</span>
           </h2>
           
           <div className="inline-block bg-[#FF7A00]/10 border border-[#FF7A00]/30 text-[#FF7A00] text-2xl md:text-3xl font-black font-[family-name:var(--font-space)] px-8 py-3 rounded-full mb-8 shadow-[0_0_30px_rgba(255,122,0,0.15)] hover:scale-105 transition-transform cursor-default">
@@ -395,7 +395,7 @@ export default function Home() {
           </div>
 
           <p className="text-xl text-white/70 mb-10 max-w-xl mx-auto">
-            Transforme sua música em algo real agora. Fale com nosso produtor musical e garanta sua guia hoje mesmo.
+            A guia profissional que vende a sua ideia. Valor promocional sujeito à lotação semanal da nossa agenda.
           </p>
           <WhatsAppButton className="w-full sm:w-auto font-black text-xl py-5 px-12 shadow-[0_0_30px_rgba(255,122,0,0.3)] hover:scale-105">
             Quero Garantir Minha Guia Hoje
@@ -407,7 +407,7 @@ export default function Home() {
       <div className="h-12 bg-[#FF7A00] flex items-center overflow-hidden border-y border-black w-[105%] -ml-4 rotate-1 shadow-[0_0_20px_rgba(255,122,0,0.1)] z-10 relative">
         <div className="flex animate-marquee-fast whitespace-nowrap text-black font-black uppercase text-sm tracking-tighter mix-blend-difference">
           {[...Array(12)].map((_, i) => (
-            <span key={i} className="px-4">Transforme suas ideias em música •</span>
+            <span key={i} className="px-4">+500 COMPOSITORES JÁ SAÍRAM DO CELULAR •</span>
           ))}
         </div>
       </div>
@@ -420,7 +420,7 @@ export default function Home() {
           </div>
           
           <div className="text-sm text-white/40 max-w-md uppercase tracking-widest font-bold">
-            <p className="mb-2">A conexão oficial entre o compositor e a qualidade profissional que sua obra merece.</p>
+            <p className="mb-2">A qualidade de estúdio inegociável que a sua composição sempre mereceu.</p>
           </div>
 
           <WhatsAppButton variant="ghost" showIcon={false} className="text-xs uppercase tracking-widest font-bold border border-white/10 mt-2 rounded-full py-2 px-6">

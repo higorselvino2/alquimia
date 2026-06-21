@@ -117,7 +117,11 @@ export function AudioPlayer({ src, label, variant = 'before' }: AudioPlayerProps
         src={src}
         onTimeUpdate={handleTimeUpdate}
         onEnded={handleEnded}
-        preload="metadata"
+        onError={(e) => {
+          console.warn(`Audio missing or failed to load: ${src}`);
+          setIsPlaying(false);
+        }}
+        preload="none"
       />
     </div>
   );
