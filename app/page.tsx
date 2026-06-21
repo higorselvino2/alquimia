@@ -39,7 +39,7 @@ export default function Home() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/80 mb-12 leading-relaxed max-w-xl">
-              Você manda um áudio simples; nós entregamos um arranjo de estúdio e cantores reais, pronto para você apresentar aos maiores artistas do mercado.
+              Você manda um áudio simples; nós entregamos um arranjo de estúdio e nossa voz profissional, pronto para você apresentar aos maiores artistas do mercado.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
               <div className="text-center sm:text-left">
                 <div className="text-white text-sm font-bold uppercase tracking-widest mb-1">MANTEMOS SUA ESSÊNCIA</div>
                 <div className="text-[#FF7A00] text-xl font-black font-[family-name:var(--font-space)] tracking-tight leading-none mb-2">Respeito total à sua letra e melodia.</div>
-                <div className="text-white/80 text-xs mt-1">A música fica exatamente do seu jeito, mas com qualidade de estúdio e cantores reais.</div>
+                <div className="text-white/80 text-xs mt-1">A música fica exatamente do seu jeito, mas com qualidade de estúdio e nossa voz profissional.</div>
               </div>
             </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
           <div className="bg-white/5 border border-white/10 p-5 rounded-xl flex items-center gap-4 backdrop-blur-md hover:bg-white/10 transition-colors">
             <div className="text-[#FF7A00]"><Mic2 className="w-6 h-6" /></div>
-            <span className="text-sm font-medium">Voz gravada por cantores reais</span>
+            <span className="text-sm font-medium">Interpretação de voz profissional</span>
           </div>
           <div className="bg-white/5 border border-white/10 p-5 rounded-xl flex items-center gap-4 backdrop-blur-md hover:bg-white/10 transition-colors">
             <div className="text-[#FF7A00]"><Settings2 className="w-6 h-6" /></div>
